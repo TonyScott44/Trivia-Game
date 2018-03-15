@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <!-- Reference to external CSS Reset Stylesheet -->
+    <link rel="stylesheet" href="assets/CSS/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Reference to external CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <!-- Added link to the jQuery Library -->
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+
+    </script>
+    <!-- Reference to external JavaScript File -->
+    <script src="assets/JavaScript/trivia-game.js"></script>
+</head>
+
+<body>
+
+    <div id="row0" class="row">
+        <div class="col-12-l">
+            <header>BMW eDrive Trivia</header>
+        </div>
+    </div>
+
+    <div id="row1" class="row">
+        <div id="timeRem" class="col-12-l">
+            <h2>Time Remaining: <span id = "time-rem">20</span> Seconds</h2>
+        </div>
+    </div>
+
+    <div id="row2" class="row">
+        <div id="ques-etc" class="col-12-l">
+            <p id="quesEtc"></p>
+        </div>
+    </div>
+
+    <div id="row3" class="row">
+        <div id="corr-ans" class="col-12-l">
+            <p id="corrAns"></p>
+        </div>
+    </div>
+
+    <div id="row4" class="row">
+        <div id="start-button" class="col-12-l">
+            <p id="startButton">Start</p>
+        </div>
+    </div>
+
+    <div id="row5" class="row">
+        <div id="choice-list" class="col-12-l">
+            <p id="choice1"></p>
+            <p id="choice2"></p>
+            <p id="choice3"></p>
+            <p id="choice4"></p>
+        </div>
+    </div>
+    <br>
+    <div id="row6" class="row">
+        <div id="restart-button" class="col-12-l">
+            <p id="restartButton"></p>
+        </div>
+    </div>
+
+</body>
+</html>
