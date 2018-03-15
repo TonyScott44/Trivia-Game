@@ -209,7 +209,7 @@ function timeConverter(t) {
 
 function eNext () {
     if (eCount !== eDrive.length) {
-        $("#time-rem").text("30");
+        $("#time-rem").text("20");
         $("#quesEtc").text(eDrive[eIndex].question);
         $("#choice1").text(eDrive[eIndex].choices[0]);
         $("#choice2").text(eDrive[eIndex].choices[1]);
