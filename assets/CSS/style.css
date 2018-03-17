@@ -1,3 +1,78 @@
+@font-face {
+    font-family: 'hurtmold_regular';
+    src: url('fonts/hurtm___-webfont.woff2') format('woff2'),
+    url('fonts/hurtm___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 10px 10px 10px 30px;
+    background-image: url(../images/bmwBG.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:darkgray;
+    width: 100%;
+}
+
+header {
+    padding: 0;
+    margin: 1vh 0 2vh 65vh;
+    font-family:hurtmold_regular;
+    font-weight:normal;
+    font-style:normal;
+    font-size: 7vh;
+    color: white;
+}
+
+#container {
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #fafafa;
+    width: 120vh;
+    height: 60vh;
+    background-color: rgba(31, 31, 31, .7);
+    margin: 0 6vh 0 33vh;
+}
+
+h2 {
+
+    font-family:hurtmold_regular;
+    font-weight:normal;
+    font-style:normal;
+    font-size: 4vh;
+    text-align: center;
+    color:white;
+}
+
+p {
+    font-family:sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    font-size: 3vh;
+    text-align: center;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+#ques-etc {
+    padding: 0 30px 0 30px;
+}
+
+#imgBMW {
+    text-align: center;
+}
+
+h3 {
+    font-family:sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    font-size: 3vh;
+    text-align: center;
+    color: #fafafa;
+}
+
+p:hover {
+    text-decoration: none;
+    color: #4194ff;
 }
