@@ -11,7 +11,7 @@ body {
     background-image: url(../Images/bmwBG.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-color:darkgray;
+    
     width: 100%;
 }
 
@@ -30,7 +30,7 @@ header {
     border-width: 2px;
     border-color: #fafafa;
     width: 120vh;
-    height: 60vh;
+    height: 65vh;
     background-color: rgba(31, 31, 31, .7);
     margin: 0 6vh 0 33vh;
 }
